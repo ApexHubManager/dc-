@@ -1,0 +1,14 @@
+[Unit]
+Description=APEX CLOULD Discord Bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/apex-clould-bot
+ExecStart=/usr/bin/python3 /root/apex-clould-bot/bot.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
