@@ -3258,7 +3258,7 @@ if not TOKEN:
         "DISCORD_TOKEN is missing from the .env file."
     )
 
-bot.run(TOKEN)/admin add @user
+bot.run(TOKEN)
 /admin remove @user
 
 /vps manager add @user
