@@ -1,0 +1,15 @@
+[Unit]
+Description=APEX CLOULD Discord Bot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/dc-
+ExecStart=/usr/bin/python3 /root/dc-/bot.py
+Restart=always
+RestartSec=5
+
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
