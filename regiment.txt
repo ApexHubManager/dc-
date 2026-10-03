@@ -1,0 +1,13 @@
+# ==========================================
+# APEX CLOULD REGIMENT
+# ==========================================
+
+APEX CLOULD™ REGIMENT
+
+Welcome to the APEX CLOULD Regiment.
+
+Use this file for your regiment information,
+rules, ranks, requirements and other details.
+
+You can edit this file without changing bot.py.
+The bot will read this file when /regiment is used.
